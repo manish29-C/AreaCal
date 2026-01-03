@@ -3,12 +3,9 @@ package com.entity;
 class Sphere extends Shapes{
 	
 	double r;
-	double pi;
-
-	public Sphere(double r, double pi) {
+	public Sphere(double r) {
 		super();
 		this.r = r;
-		this.pi = pi;
 	}
 
 	@Override

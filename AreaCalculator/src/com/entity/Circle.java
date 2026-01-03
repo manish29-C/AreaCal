@@ -3,10 +3,8 @@ package com.entity;
 class Circle extends Shapes{
 	
 	double r;
-	double pi;
-	public Circle(double r, double pi) {
+	public Circle(double r) {
 		this.r=r;
-		this.pi=pi;
 	}
 
 	@Override

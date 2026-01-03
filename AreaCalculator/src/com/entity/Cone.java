@@ -4,13 +4,10 @@ class Cone extends Shapes{
 	
 	double r; 
 	double l;
-	double pi;
-
-	public Cone(double r, double l, double pi) {
+	public Cone(double r, double l) {
 		super();
 		this.r = r;
 		this.l = l;
-		this.pi = pi;
 	}
 
 	@Override

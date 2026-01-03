@@ -3,13 +3,9 @@ package com.entity;
 class Hemisphere extends Shapes {
 	
 	double r;
-	double pi;
-	
-
-	public Hemisphere(double r, double pi) {
+	public Hemisphere(double r) {
 		super();
 		this.r = r;
-		this.pi = pi;
 	}
 
 	@Override

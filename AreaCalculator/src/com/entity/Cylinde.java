@@ -4,12 +4,10 @@ class Cylinder extends Shapes{
      
 	double r;
 	double h;
-	double pi;
 	
-	public Cylinder(double r, double h,double pi) {
+	public Cylinder(double r, double h) {
 		this.r = r;
 		this.h = h;
-		this.pi=pi;
 	}
 
 	@Override
